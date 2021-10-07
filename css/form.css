@@ -7,30 +7,14 @@
     max-width: 190px;
     position: relative;
 }
-.form_image_wrap_image img {width: 100%}
 
-/* .form_image_wrap_image:after {
-    content: "";
-    position: absolute;
-    top: 30px;
-    left: 106px;
-    background: url(../img/bg-sale2.png);
-    width: 124px;
-    height: 72px;
-    /* z-index: 1000000000000000000; */
-    background-size: 158px;
-    box-shadow: 15px 12px 14px 0 #00000054;
-    background-position: -8px -8px;
-    display: block;
-} */
+.form_image_wrap_image img {
+    width: 100%
+}
 
-#form {}
 form {
     width: 100%;
 }
-
-#form_image {}
-
 
 .form_wrap {
     max-width: 300px;
@@ -38,20 +22,19 @@ form {
     padding: 89px 13px 16px;
     box-shadow: 0 0 20px 13px #00000026;
 }
+
 .form_wrap form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
-.form_wrap label{
+.form_wrap label {
     display: block;
     margin-top: 13px;
 }
 
-.descount,
-.termina {
+.descount, .termina {
     text-align: center;
 }
 
@@ -71,7 +54,7 @@ form {
     color: #80808069;
 }
 
-.horas div{
+.horas div {
     text-align: center;
     margin-right: 5px;
     font-weight: bold;
@@ -84,11 +67,13 @@ form {
     margin: 10px auto;
     font-size: 24px;
 }
+
 #price .price_new {
     margin: 0px 5px;
     color: #3578e5;
     text-shadow: 4px 4px 3px #00000033;
 }
+
 #price .price_old {
     margin: 0px 5px;
     color: #80808069;
@@ -115,9 +100,18 @@ button.btnn {
 }
 
 .sus {
-    display: flex;}
-.sus_wrwp_img {width: 15px;margin-right: 5px}
-.sus_wrwp_img img {width: 100%}
+    display: flex;
+}
+
+.sus_wrwp_img {
+    width: 15px;
+    margin-right: 5px
+}
+
+.sus_wrwp_img img {
+    width: 100%
+}
+
 .sus_text {
     color: gray;
     font-size: 12px;

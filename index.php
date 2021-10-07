@@ -1,20 +1,20 @@
-<!DOCTYPE html><html lang="ro"><head></head><body>
+<!DOCTYPE html>
+<html lang="ro">
 
+<head>
 
-
-<base>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="referrer" content="no-referrer">
   <title> Dr. Leon Danaila - Acasă</title>
   <!--Fonts-->
-  <link href="css.css" rel="stylesheet" type="text/css">
+  <link href="css/font-css.css" rel="stylesheet" type="text/css">
   <!--Style-->
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="form.css">
-  <link rel="stylesheet" href="comments.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/comments.css">
   <style>
     .hide,
     .flag-dropdown {
@@ -33,20 +33,20 @@
       z-index: 100;
     }
   </style>
+</head>
 
-
-
+<body>
   <div id="global_wrapper">
     <header>
       Dr. Leon Danaila - Acasă
     </header>
     <main id="global_bg">
-      <div id="global_bg_img"><img src="bg.png" alt=""></div>
+      <div id="global_bg_img"><img src="img/bg.png" alt=""></div>
     </main>
     <div id="person_page">
       <div class="erson_page_inner_left">
         <div class="erson_page_inner_left_item">
-          <div class="avatar_img_left"><img src="doc1.png" alt="" style="transform: scale(1.1);"></div>
+          <div class="avatar_img_left"><img src="img/doc1.png" alt="" style="transform: scale(1.1);"></div>
           <div class="erson_page_inner_left_item_info">
             <div class="name_doctor"> Dr. Leon Danaila</div>
             <div class="info_doctor">Figură publică</div>
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="erson_page_inner_right">
-        <div class="erson_page_inner_right_img"><img src="top_like.png" alt=""></div>
+        <div class="erson_page_inner_right_img"><img src="img/top_like.png" alt=""></div>
         <div class="erson_page_inner_right_img_liked">
           <p>Îmi place</p>
         </div>
@@ -62,19 +62,19 @@
     </div>
     <a href="#orderForm" class="sms">
       <div class="sms-el_mesage">
-        <div class="sms_inner_img"><img src="sms.png" alt=""></div>
+        <div class="sms_inner_img"><img src="img/sms.png" alt=""></div>
         <div style="margin: 0px 8px; color: white; font-size: 13px;">Scrie</div>
       </div>
       <div class="sms-el_mesage2">
-        <div class="sms_inner_img"><img src="sms2.png" alt=""></div>
+        <div class="sms_inner_img"><img src="img/sms2.png" alt=""></div>
       </div>
       <div class="sms-el_points">
-        <div class="sms_inner_img"><img src="points.png" alt=""></div>
+        <div class="sms_inner_img"><img src="img/points.png" alt=""></div>
       </div>
     </a>
     <div style="margin-bottom:10px" class="liked23">
       <div class="liked23_icon">
-        <div class="liked23_icon_inner"><img src="like23.png" alt=""></div>
+        <div class="liked23_icon_inner"><img src="img/like23.png" alt=""></div>
       </div>
       <div class="liked23_info">
         <p>Le place la 18 889 de persoane</p>
@@ -82,13 +82,13 @@
     </div>
 
     <div id="state">
-    <div class="state_doctor">
-        <div class="state_doctor_avatar"><img src="doc1.png" alt="" style="transform: scale(1.1);"></div>
+      <div class="state_doctor">
+        <div class="state_doctor_avatar"><img src="img/doc1.png" alt="" style="transform: scale(1.1);"></div>
         <div class="state_doctor_name">
           <div class="state_doctor_name_iner">Dr. Leon Danaila</div>
           <div class="state_doctor_name_info js-publish-date">4 de febrero a las 9:05 </div>
         </div>
-    </div>
+      </div>
       <div id="objectScrollstate" class="state_text">
         <h1>Edem, durere și spasme musculare - 3 tovarăși adevărați
           <br>
@@ -106,7 +106,7 @@
           dau seama că acesta este doar vârful aisbergului. `Arterele înfundate` sunt cauza a 9 din 10 boli cronice care
           sunt considerate incurabile.
 
-        </p> <img src="asd.png" alt="" class="doctor">
+        </p> <img src="img/asd.png" alt="" class="doctor">
         <p>Dureri de cap și creșteri ale tensiunii arteriale. Este dificil să vă întoarceți sau să vă înclinați gâtul.
           Picioarele se umflă seara, iar fața se umflă dimineața. Sunet în urechi. Degetele de la picioare amorțesc și
           mâinile și picioarele îngheță. Vederea nu este concentrată. Memoria scade. Nu aveți suficientă putere și
@@ -117,16 +117,16 @@
         padding: 10px;
         background-color: rgba(198, 255, 202, 0.45);">
           <p style="margin: 10px 0; display: flex; align-items: center;">
-            <img style="width: 60px; height: 60px; margin-right: 15px;" src="mozg.png" alt="">
+            <img style="width: 60px; height: 60px; margin-right: 15px;" src="img/mozg.png" alt="">
             De ce vasele de sânge sunt responsabile pentru 90% din sănătatea dumneavoastră?
           </p>
-          <p style="margin: 10px 0; display: flex; align-items: center"><img style="width: 60px; height: 60px; margin-right: 15px;" src="mozg.png" alt="">Pe lângă colesterol, ce
+          <p style="margin: 10px 0; display: flex; align-items: center"><img style="width: 60px; height: 60px; margin-right: 15px;" src="img/mozg.png" alt="">Pe lângă colesterol, ce
             se depune pe pereții vaselor de sânge?
           </p>
-          <p style="margin: 10px 0; display: flex; align-items: center"><img style="width: 60px; height: 60px; margin-right: 15px;" src="mozg.png" alt="">4 semne evidente ale
+          <p style="margin: 10px 0; display: flex; align-items: center"><img style="width: 60px; height: 60px; margin-right: 15px;" src="img/mozg.png" alt="">4 semne evidente ale
             vaselor de sânge nesănătoase și încă 7 ascunse
           </p>
-          <p style="margin: 10px 0; display: flex; align-items: center"><img style="width: 60px; height: 60px; margin-right: 15px;" src="mozg.png" alt=""><b>Cum să curățați în
+          <p style="margin: 10px 0; display: flex; align-items: center"><img style="width: 60px; height: 60px; margin-right: 15px;" src="img/mozg.png" alt=""><b>Cum să curățați în
               siguranță vasele de sânge acasă?
             </b></p>
 
@@ -137,7 +137,7 @@
         <p style="font-style: italic;">Am primit un răspuns la aceste întrebări de la șeful departamentului de chirurgie
           vasculară al Universității Medicale și Farmacologice din București, profesor, neurochirurg, Dr. Leon Danaila
         </p>
-        <img src="doctor.jpg" alt="">
+        <img src="img/doctor.jpg" alt="">
 
         <h3>
           Profesorul Leon Danaila a efectuat peste 19.200 de operații pe creier. Cel mai tânăr pacient avea doar 2 zile.
@@ -158,7 +158,7 @@
 
         </p>
         <h2>Am putea înfășura planeta de 2,5 ori</h2>
-        <img src="33.jpg" alt="" class="doctor">
+        <img src="img/33.jpg" alt="" class="doctor">
         <h2>cu vasele de sânge numai de la 1 persoană
         </h2>
         <h3>Imaginați-vă. Dacă luați și conectați toate vasele din corpul unei persoane, lungimea lor va fi de
@@ -238,7 +238,7 @@
         </h2>
         <p>Știm cu toții cât de periculos este colesterolul. Înfundă vasele de sânge, le subțiază, afectând fluxul
           sanguin. Dar nu este singurul </p>
-        <img src="44.jpg" alt="">
+        <img src="img/44.jpg" alt="">
 
         <h2 style="text-align: center;">6,3 kg</h2>
         <p>Aceasta este greutatea totală a impurităților care se acumulează în vasele de sânge în 55 de ani.
@@ -313,7 +313,7 @@ font-weight: 700;">Aceste plăci nu pun viața în pericol. Calitatea vieții sc
           trebuie să luați medicamente? Atunci ar trebui să știți că doar 30% din diametrul vasului a fost păstrat.
           Restul este sub plăci de colesterol, cheaguri de sânge și săruri de calciu.
         </p>
-        <img src="4292.jpg" alt="">
+        <img src="img/4292.jpg" alt="">
         <p>Prin urmare, chiar și cel mai mic stres, schimbarea vremii, furtunile magnetice afectează imediat starea de
           sănătate. Aveți tensiune arterială crescută, dureri de cap severe, dureri articulare.
         </p>
@@ -334,7 +334,8 @@ font-weight: 700;">Aceste plăci nu pun viața în pericol. Calitatea vieții sc
             depunerile din vasele de sânge care alimentează sângele contribuie la fisurile anale.
           </li>
           <li>
-            <b>4. Osteocondroza.</b></li>
+            <b>4. Osteocondroza.</b>
+          </li>
           <li style="list-style: none;">Circulație slabă a sângelui în cartilaj. Cartilajul se întărește și se uzează,
             nu are timp să se recupereze. Nu se regenerează și nu se usucă. Își pierde proprietățile de amortizare.
             Sărurile nu sunt spălate și se acumulează necontrolat
@@ -369,7 +370,8 @@ font-weight: 700;">Aceste plăci nu pun viața în pericol. Calitatea vieții sc
 
           </li>
           <li>
-            <b>5. Scăderea energiei.</b></li>
+            <b>5. Scăderea energiei.</b>
+          </li>
           <li style="list-style: none;">Simți o lipsă de energie. Nu aveți chef de nimic. Vreți doar să stați în pat și
             să mâncați. Acest lucru se întâmplă atunci când organismul începe să conserve energia. Vasele de sânge
             înfundate împiedică transportul nutrienților necesari către organe, iar organismul își reduce activitatea la
@@ -387,7 +389,8 @@ font-weight: 700;">Aceste plăci nu pun viața în pericol. Calitatea vieții sc
             te simți ca o persoană cu dizabilități semi-paralizată, îți doare oasele. Este nevoie de timp pentru a ușura
             amorțeala. Acest lucru se datorează faptului că lichidul sinovial își pierde proprietățile.</li>
           <li>
-            <b>4. Insomnie.</b></li>
+            <b>4. Insomnie.</b>
+          </li>
           <li style="list-style: none;">Vă simțiți somnoros și obosit, dar nu puteți dormi până la miezul nopții? Acest
             lucru se datorează insuficienței sângelui către glanda pituitară. Nu mai produce melatonină, hormonul
             somnului.
@@ -416,7 +419,7 @@ font-weight: 700;">Oamenii au adesea mai multe simptome în diferite combinații
         </p>
         <p>Aruncă foarte mulți bani într-o gaură neagră farmaceutică. <b>Dar cauza tuturor bolilor vasculare este
             aceeași - blocajul.</b> Trebuie să începeți cu acest lucru, cu o curățare generală</p>
-        <img src="content-pic_03.png" alt="">
+        <img src="img/content-pic_03.png" alt="">
         <h2 style="text-align: center;">Ce trebuie utilizat pentru a curăța vasele de sânge de colesterol, cheaguri de
           sânge și straturi?
         </h2>
@@ -520,7 +523,7 @@ float: right;     padding: 10px;
             elimină bolile vasculare. </b>Coreea, Japonia, Canada, Elveția și Israel au făcut deja primii pași în
           această direcție. Înainte de a începe terapia medicamentoasă, este necesar să curățați organismul cu
           nutraceutice.</p>
-        <img src="kolesteroli_istock.jpg" alt="">
+        <img src="img/kolesteroli_istock.jpg" alt="">
 
         <p>În România, cu <a href="#orderForm">CardioActive</a> tratează numai oameni importanți: miniștri, deputați, celebrități etc. Produsele
           israeliene sunt, de asemenea, utilizate în tratament, ceea ce permite pacienților să obțină rezultate rapide.
@@ -562,7 +565,8 @@ float: left;padding: 10px;
     font-size: 22px;
     font-weight: 700;">
           <a href="#orderForm">CardioActive</a> este o comoară de extracte medicinale care funcționează armonios pentru a vă menține vasele de
-          sânge curate și ferme.</h2>
+          sânge curate și ferme.
+        </h2>
         <h2 style="padding-bottom: 5px;
 text-align: center;">Elimină excesul
         </h2>
@@ -618,7 +622,8 @@ text-align: center;">Efect de fluture
             incredibile. <a href="#orderForm">CardioActive</a>, începând cu utilizarea pas cu pas a gunoiului vascular acumulat de-a lungul
             deceniilor, declanșează o reacție în lanț a regenerării organismului.
 
-            </b></p><h2 style="padding: 10px;
+          </b></p>
+        <h2 style="padding: 10px;
   border-style: none none none solid;
   border-width: 7px;
   border-color: #0091ff #0091ff #0091ff #00ff62;
@@ -628,8 +633,9 @@ text-align: center;">Efect de fluture
   font-size: 22px;
   font-weight: 700;"><b>1 lună de administrare <a href="#orderForm">CardioActive</a> - e ca și cum te-ai naște din nou
 
-            </b></h2><b>
-          </b><p></p>
+          </b></h2><b>
+        </b>
+        <p></p>
         <h2 style="border-bottom: 1px dotted #000;
 text-align: center;">TREZIRE UȘOARĂ
         </h2>
@@ -699,7 +705,7 @@ text-align: center;">Program de reduceri
           semnificativ mai mic. Aceasta înseamnă că picăturile sunt disponibile pentru mai mulți oameni!
         </p>
         <p><b>Program de reducere „Vase curate”</b></p>
-        <img style="max-width: 250px; display: block; margin: 0 auto;" src="prod.png" alt="">
+        <img style="max-width: 250px; display: block; margin: 0 auto;" src="img/prod.png" alt="">
         <p>Institutul nostru, în cooperare cu Universitatea de Medicină și Farmacie, precum și producătorul
           <a href="#orderForm">CardioActive</a>, în cadrul proiectului de telemedicină (medicamente online), au lansat un program de reduceri.
         </p>
@@ -754,29 +760,21 @@ background-color: rgba(198, 255, 202, 0.45);">
             document.write(sNow);
           </script>, tot din acest motiv, vă recomand să plasați o comandă pe <a href="#orderForm">CardioActive</a> cât mai curând posibil.
           Programul nu va fi repetat anul acesta.</p>
-
-
-
-
-
-
       </div>
-
       <div id="form">
         <div id="form_image">
-          <div class="form_image_wrap_image"><img src="prod.png" alt=""></div>
+          <div class="form_image_wrap_image"><img src="img/prod.png" alt=""></div>
         </div>
         <div id="orderForm" class="form_wrap">
           <form action="api.php" method="POST">
             <input name="country" type="hidden" value="RO">
-			<input type="hidden" name="goods_id" value="134910">
-			<input type="hidden" name="sub1" value="{subid}">
-		<input type="hidden" name="sub2" value="{sub_id_11}">
-		<input type="hidden" name="px" value="{px}">
-            <label class="descount">Reducerea -50%</label> 
+            <input type="hidden" name="goods_id" value="134910">
+            <input type="hidden" name="sub1" value="{subid}">
+            <input type="hidden" name="sub2" value="{sub_id_11}">
+            <input type="hidden" name="px" value="{px}">
+            <label class="descount">Reducerea -50%</label>
 
             <style type="text/css">
-
               .value {
                 padding: 10px;
               }
@@ -787,7 +785,7 @@ background-color: rgba(198, 255, 202, 0.45);">
                 align-items: center;
               }
             </style>
-           
+
             <div id="price">
 
               <div class="price_old oldPriceAndLabelForLandingInfoApi">
@@ -801,7 +799,7 @@ background-color: rgba(198, 255, 202, 0.45);">
             <input name="phone" placeholder="+40777777777" required="required" autocomplete="tel" type="tel" id="phone-mask" class="only_number" value="">
             <button type="submit" class="btnn">COMANDĂ</button>
             <div class="sus">
-              <div class="sus_wrwp_img"><img src="security.png" alt=""></div>
+              <div class="sus_wrwp_img"><img src="img/security.png" alt=""></div>
               <div class="sus_text">Datele dvs. sunt confidențiale</div>
             </div>
           </form>
@@ -814,8 +812,8 @@ background-color: rgba(198, 255, 202, 0.45);">
       <div>Distribuie</div>
     </div>
     <div id="doctor_liked_heart">
-      <div class="doctor_liked_heart_inner"><img src="like23.png" alt=""></div>
-      <div class="doctor_liked_liked_inner"><img src="heart.png" alt=""></div>
+      <div class="doctor_liked_heart_inner"><img src="img/like23.png" alt=""></div>
+      <div class="doctor_liked_liked_inner"><img src="img/heart.png" alt=""></div>
       <div class="doctor_liked_numbers">
         <h1 class="popular">2783</h1>
       </div>
@@ -823,7 +821,7 @@ background-color: rgba(198, 255, 202, 0.45);">
     <div class="comments">
       <div id="comments_component" style="display: block;">
         <div class="item" style="display: flex;">
-          <div class="component_ava" style="background: url(&quot;1.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/1.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -837,13 +835,13 @@ background-color: rgba(198, 255, 202, 0.45);">
                   după 2,5 luni, mă simt tânăr și o PERSOANĂ sănătoasă (sper să înțelegeți la ce mă refer)! Prin urmare,
                   merită să îl cumpărați chiar și la prețul obișnuit, nu veți regreta! Mi se pare că <a href="#orderForm">CardioActive</a> va fi
                   interzis în viitorul apropiat, deoarece prea multe companii farmaceutice vor rămâne în pierdere.
-                  
+
                 </div>
-                <img style="max-width: 230px" src="456.png" alt="">
+                <img style="max-width: 230px" src="img/456.png" alt="">
               </div>
 
             </div>
-            <div class="component_img" style="display: none;"><img src="1.jpg" onerror="this.parentElement.style.display='none'"></div>
+            <div class="component_img" style="display: none;"><img src="img/1.jpg" onerror="this.parentElement.style.display='none'"></div>
             <div class="component_reposy"><b>Acum 1 minut Îmi place</b>
               <nav>Apreciază</nav>
               <nav>Răspunde</nav>
@@ -853,7 +851,7 @@ background-color: rgba(198, 255, 202, 0.45);">
         </div>
         <!---->
         <div class="item" style="display: flex;">
-          <div class="component_ava" style="background: url(&quot;2.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/2.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -888,7 +886,7 @@ background-color: rgba(198, 255, 202, 0.45);">
     margin: 0 auto 10px;
     border-left: 1px dotted #c0c0c0;
     padding-left: 5px;">
-          <div class="component_ava" style="background: url(&quot;3.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/3.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -910,7 +908,7 @@ background-color: rgba(198, 255, 202, 0.45);">
         </div>
         <!---->
         <div class="item" style="display: flex;">
-          <div class="component_ava" style="background: url(&quot;4.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/4.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -935,7 +933,7 @@ background-color: rgba(198, 255, 202, 0.45);">
         </div>
         <!---->
         <div class="item user_request zw7cgjefeqj" style="display: none;">
-          <div class="component_ava_small" style="background: url(&quot;doc1.png&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava_small" style="background: url(&quot;img/doc1.png&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -951,7 +949,7 @@ background-color: rgba(198, 255, 202, 0.45);">
               <!---->
               <!---->
             </div>
-            <div class="component_img" style="display: none;"><img src="doc1.png" onerror="this.parentElement.style.display='none'"></div>
+            <div class="component_img" style="display: none;"><img src="img/doc1.png" onerror="this.parentElement.style.display='none'"></div>
             <div class="component_reposy"><b>Acum 1 minut Îmi place</b>
               <nav>Apreciază</nav>
               <nav>Răspunde</nav>
@@ -977,7 +975,7 @@ background-color: rgba(198, 255, 202, 0.45);">
     margin: 0 auto 10px;
     border-left: 1px dotted #c0c0c0;
     padding-left: 5px;">
-          <div class="component_ava" style="background: url(&quot;6.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/6.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -999,7 +997,7 @@ background-color: rgba(198, 255, 202, 0.45);">
         </div>
         <!---->
         <div class="item" style="display: flex;">
-          <div class="component_ava" style="background: url(&quot;7.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/7.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -1012,9 +1010,9 @@ background-color: rgba(198, 255, 202, 0.45);">
                   decurs de o lună și jumătate, amorțeala a dispărut complet, iar tensiune a revenit la normal. Se simte
                   mult mai bine, mai viguroasă, memoria i s-a îmbunătățit, articulațiile nu-i mai dor nici pe vreme rea.
                 </div>
-                <img style="max-width: 230px; margin-top:5px" src="123.png" alt="">
+                <img style="max-width: 230px; margin-top:5px" src="img/123.png" alt="">
               </div>
-              
+
 
               <div class="component_licked"><span class="icons"><span class="fb_licked l"></span></span> <span>1</span>
               </div>
@@ -1031,7 +1029,7 @@ background-color: rgba(198, 255, 202, 0.45);">
         </div>
         <!---->
         <div class="item" style="display: flex;">
-          <div class="component_ava" style="background: url(&quot;8.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/8.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -1071,7 +1069,7 @@ background-color: rgba(198, 255, 202, 0.45);">
         </div>
         <div class="item" style="display: flex; width: 80%; margin: 0 auto 10px;
         border-left: 1px dotted #c0c0c0; padding-left: 5px;">
-          <div class="component_ava" style="background: url(&quot;12.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
+          <div class="component_ava" style="background: url(&quot;img/12.jpg&quot;) center center / cover no-repeat rgb(235, 237, 240);"></div>
           <div class="component_body">
             <div class="component_info">
               <div class="component_info_inner">
@@ -1097,15 +1095,7 @@ background-color: rgba(198, 255, 202, 0.45);">
             </div>
           </div>
         </div>
-        <!---->
-
         <div id="commentPushBlock"></div>
-
-
-
-
-
-
         <form id="commentForm" method="POST">
           <input type="text" placeholder="Nume" id="inputCommentName" value="">
           <textarea name="" id="inputCommentText" placeholder="comentariul dvs." cols="20" rows="5"></textarea>
@@ -1164,10 +1154,10 @@ background-color: rgba(198, 255, 202, 0.45);">
     </div>
   </div>
 
-  <script src="jquery.min.js"></script>
+  <script src="lib/jquery.min.js"></script>
   <script>
-    $(document).ready(function () {
-      $("a[href^='#']").on("click", function (e) {
+    $(document).ready(function() {
+      $("a[href^='#']").on("click", function(e) {
         var anchor = $(this);
         $('html, body').stop().animate({
           scrollTop: $(anchor.attr('href')).offset().top
@@ -1177,31 +1167,28 @@ background-color: rgba(198, 255, 202, 0.45);">
       });
     });
   </script>
-  <script src="jquery.countdown.min.js"></script>
-  <script src="timer.js"></script>
-  <script src="moment-with-locales.min.js" type="text/javascript"></script>
-  <script src="script.js" type="text/javascript"></script>
+  <script src="lib/jquery.countdown.min.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="lib/moment-with-locales.min.js" type="text/javascript"></script>
+  <script src="js/script.js" type="text/javascript"></script>
   <a href="http://privacy.lr-land.com/privacy.html" style="display: block; margin: 0 auto; text-align: center;">Privacy
     Policy</a>
-    <!--Счетчики метрик для вебмастеров-->
+  <!--Счетчики метрик для вебмастеров-->
 
+  <!-- WIDGETS -->
 
+  <!-- END WIDGETS -->
 
+  <!--Ловим параметры для юзера -->
+  <script>
+    paramData1 = '';
+  </script>
+  <script src="lib/jquery.maskedinput-1.2.2.js"></script>
+  <script src="lib/intlTelInput.min.js"></script>
 
+  <script src="js/validator.js"></script>
+  <!--Валидатор-->
 
+</body>
 
-<!-- WIDGETS -->
-
-
-
-<!-- END WIDGETS -->
-
-<!--Ловим параметры для юзера -->
-<script>
-        paramData1 = '';
-    </script>     <script src="jquery.maskedinput-1.2.2.js"></script>
-<script src="intlTelInput.min.js"></script>
-
-<script src="validator.js"></script> <!--Валидатор-->
-
-</body></html>
+</html>
